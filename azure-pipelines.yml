@@ -17,7 +17,7 @@ steps:
     inputs:
     version: '$(dotnetSdkVersion)'
 
-- task: NuGetToolInstaller@0
+    - task: NuGetToolInstaller@0
     inputs:
     versionSpec: '5.4.0' 
 
